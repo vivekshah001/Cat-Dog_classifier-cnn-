@@ -8,7 +8,7 @@ from PIL import Image
 from tensorflow.keras.models import load_model
 
 
-model = load_model(r"C:\\Users\\user\\Downloads\\model.h5")
+model = load_model("model.h5")
 
 st.title("CAT AND DOG CLASSFIER(CNN)")
 
