@@ -13,14 +13,25 @@ Framework: TensorFlow / Keras
 
 
 🧠 Model Architecture
+
 Input Layer (150x150x3)
+
 → Conv2D + ReLU
+
 → MaxPooling
+
 → Conv2D + ReLU
+
 → MaxPooling
+
 → Conv2D + ReLU
+
 → MaxPooling
+
 → Flatten
+
 → Dense (Fully Connected)
+
 → Dropout
+
 → Output Layer (Sigmoid)
